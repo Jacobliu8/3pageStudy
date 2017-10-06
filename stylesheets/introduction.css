@@ -1,4 +1,4 @@
-/* line 5, ../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -244,4 +244,121 @@ body header ul li a {
 .container {
   max-width: 120em;
   margin: 0 auto;
+}
+
+/* line 133, ../sass/introduction.scss */
+.detail {
+  padding: 2em 0;
+  background-color: #eee;
+}
+/* line 136, ../sass/introduction.scss */
+.detail h3 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #0ac285;
+  padding: 2em 0;
+}
+/* line 141, ../sass/introduction.scss */
+.detail h3:after {
+  content: "";
+  display: block;
+  background-color: #cccccc;
+  width: 2em;
+  height: .2em;
+  margin: .4em auto;
+}
+/* line 150, ../sass/introduction.scss */
+.detail .samples {
+  padding: 0 6em 4em 6em;
+}
+/* line 153, ../sass/introduction.scss */
+.detail #week-1,
+.detail #week-2 {
+  overflow: hidden;
+}
+/* line 156, ../sass/introduction.scss */
+.detail #week-1 .samples,
+.detail #week-2 .samples {
+  overflow: hidden;
+}
+/* line 159, ../sass/introduction.scss */
+.detail #week-1 li,
+.detail #week-2 li {
+  float: left;
+  width: 50%;
+  overflow: hidden;
+}
+/* line 163, ../sass/introduction.scss */
+.detail #week-1 li .thumb,
+.detail #week-2 li .thumb {
+  width: 100%;
+  height: 30em;
+  overflow: hidden;
+}
+/* line 167, ../sass/introduction.scss */
+.detail #week-1 li .thumb img,
+.detail #week-2 li .thumb img {
+  width: 90%;
+  margin: 0 auto;
+}
+/* line 172, ../sass/introduction.scss */
+.detail #week-1 li .description,
+.detail #week-2 li .description {
+  text-align: left;
+}
+/* line 174, ../sass/introduction.scss */
+.detail #week-1 li .description h4,
+.detail #week-2 li .description h4 {
+  font-weight: bold;
+}
+/* line 177, ../sass/introduction.scss */
+.detail #week-1 li .description p,
+.detail #week-2 li .description p {
+  font-weight: lighter;
+  color: #444;
+  text-align: left;
+  padding: .5em 0;
+}
+
+/* line 188, ../sass/introduction.scss */
+.darker {
+  background-color: #dddddd;
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 321px) {
+  /* line 193, ../sass/introduction.scss */
+  .detail #week-1 li,
+  .detail #week-2 li {
+    float: none;
+    width: 100%;
+    margin-bottom: 2em;
+  }
+}
+/* line 201, ../sass/introduction.scss */
+footer {
+  padding: 1em 0;
+  background-color: #333333;
+  overflow: hidden;
+}
+/* line 205, ../sass/introduction.scss */
+footer p {
+  color: white;
+}
+/* line 207, ../sass/introduction.scss */
+footer p a {
+  color: #0ac285;
+  text-decoration: none;
+  display: inline-block;
+}
+/* line 213, ../sass/introduction.scss */
+footer strong {
+  font-weight: bold;
+}
+/* line 216, ../sass/introduction.scss */
+footer .note {
+  font-size: 0.8em;
+  color: #888;
+  width: 80%;
+  margin: 10px auto 10px auto;
+  color: #9e9e9e;
 }
