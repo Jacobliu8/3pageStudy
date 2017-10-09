@@ -4,6 +4,7 @@
 guard 'livereload' do
   watch('index.html')
   watch('introduce.html')
+  watch('page1.html')
   watch(%r{stylesheets/.+\.(css)})
   watch(%r{scripts/.+\.(js)})
 end
